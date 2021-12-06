@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package in.nmaloth.rsocketservices.model.proto.zookeeper;
+
+message ZnodeInfo {
+
+    string serviceName = 1;
+    string instanceName = 2;
+    repeated string serviceToWatch = 3;
+
+}

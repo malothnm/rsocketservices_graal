@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package in.nmaloth.rsocketservices.model.proto;
+
+message ServiceDiscovery{
+
+  string host = 1;
+  int32 port = 2;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package in.nmaloth.rsocketservices.model.proto;
+
+message ServerRegistration {
+
+    string serviceName = 1;
+    string serviceInstance = 2;
+    bool statusReady = 3;
+
+}
